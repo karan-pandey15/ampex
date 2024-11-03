@@ -1,0 +1,138 @@
+.container {
+  padding: 16px;
+}
+
+.text {
+  font-size: 25px;
+  font-weight: 600;
+  color: #00b0ff;
+  margin: 40px 0;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.cardContent {
+  flex: 1;
+  padding-right: 8px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 16px;
+  color: #555;
+}
+
+.ratingContainer {
+  display: flex;
+  align-items: center;
+}
+
+.rating {
+  color: #4caf50;
+}
+
+.reviews {
+  color: #999;
+  margin-left: 4px;
+}
+
+.description {
+  color: #666;
+}
+
+.image {
+  border-radius: 8px;
+}
+
+.addButton {
+  background-color: #00b0ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background-color: #008ecf;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modalContent {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.modalTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.input, .datePicker {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.label {
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.modalButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancelButton {
+  background-color: #ddd;
+  color: #333;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.bookButton {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}

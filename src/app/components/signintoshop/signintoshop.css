@@ -1,0 +1,6 @@
+@media screen and (max-width:767px) {
+    .signin_to_shop {
+        flex-direction: column;
+        text-align: center;
+    }
+}

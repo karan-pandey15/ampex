@@ -1,0 +1,222 @@
+/* Container and General Layout */
+.container {
+    padding: 20px;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    color: #333;
+    min-height: 100vh;
+  }
+  
+  .header {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+  }
+  
+  /* Service Card Layout */
+  .serviceList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .card {
+    display: flex;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .textContainer {
+    flex: 1;
+    padding-right: 15px;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .text {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  /* Button Styling */
+  .buttonsRow {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+  }
+  
+  .addButton, .urgentButton {
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .addButton {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+  }
+  
+  .urgentButton {
+    background-color: #ff4d4d;
+    color: #ffffff;
+    border: none;
+  }
+  
+  .addButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .urgentButton:hover {
+    background-color: #cc0000;
+  }
+  
+  /* Modal Container */
+  .modalContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modalContent, .slotModalContent, .loginModalContent {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Modal Title */
+  .modalTitle {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Fields */
+  .input {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  /* Date and Time Selection */
+  .dateContainer, .timeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .dateBox, .timeBox {
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: #f0f4f8;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .selectedDateBox, .selectedTimeBox {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .dateBox:hover, .timeBox:hover {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  /* Modal Buttons */
+  .modalButtons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .modalButtons button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .modalButtons button:nth-child(1) {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+  }
+  
+  .modalButtons button:nth-child(1):hover {
+    background-color: #0056b3;
+  }
+  
+  .modalButtons button:nth-child(2) {
+    background-color: #ff4d4d;
+    color: #ffffff;
+    border: none;
+  }
+  
+  .modalButtons button:nth-child(2):hover {
+    background-color: #cc0000;
+  }
+  
+  /* Image Container */
+  .imageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+  }
+  
+  .image {
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  

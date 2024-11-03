@@ -1,0 +1,28 @@
+.banner-container {
+    /* max-height: 300px; Default max height for larger screens */
+  }
+  
+  .banner-container img {
+    /* object-fit: cover; */
+    height: 400px;
+    width: 100%; 
+    margin-top: 20px;
+    border-radius: 10px;
+    /* width: 100%;
+    height: auto;
+     */
+  }
+  
+  @media (max-width: 650px) {
+    .banner-container {
+      height: 200px; /* Increased height for smaller screens */
+      
+    }
+    .banner-container img{
+        height:190px;
+        object-fit: cover; 
+        width: auto;
+        margin-top: 25px; 
+    }
+  }
+  

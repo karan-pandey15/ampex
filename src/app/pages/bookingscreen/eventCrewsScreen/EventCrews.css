@@ -1,0 +1,140 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background-color: #fff;
+  }
+  
+  .text {
+    font-size: 25px;
+    font-weight: 600;
+    color: #00b0ff;
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 16px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .cardContent {
+    flex: 1;
+    padding-right: 8px;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .price {
+    font-size: 16px;
+    color: #555;
+    margin: 4px 0;
+  }
+  
+  .ratingContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rating {
+    font-size: 14px;
+    color: #4caf50;
+    font-weight: bold;
+  }
+  
+  .reviews {
+    font-size: 14px;
+    color: #999;
+    margin-left: 4px;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .image {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+  }
+  
+  .addButton {
+    background-color: #87cefa;
+    border-radius: 4px;
+    padding: 6px 16px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .modalContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modalContent {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .modalTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .datePicker, .timePicker {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .modalButtons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .cancelButton {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .bookButton {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

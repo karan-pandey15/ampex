@@ -1,0 +1,63 @@
+/* public/termsstyle.css */
+
+.termcondContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .termcondHeading {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #0000bb;
+  }
+  
+  .termcondSubheading {
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #0000bb;
+  }
+  
+  .termcondSubSubheading {
+    font-size: 1.5em;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #0000bb;
+  }
+  
+  .termcondText {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #0000bb;
+  }
+  
+  .termcondList {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #0000bb;
+  }
+  
+  @media (max-width: 650px) {
+    .termcondContainer {
+      padding: 15px;
+    }
+  
+    .termcondHeading {
+      font-size: 2em;
+    }
+  
+    .termcondSubheading {
+      font-size: 1.75em;
+    }
+  
+    .termcondSubSubheading {
+      font-size: 1.25em;
+    }
+  
+    .termcondText {
+      font-size: 0.9em;
+    }
+  }
+  

@@ -44,6 +44,15 @@ const Footer = () => {
                   Term&Condition
                 </Link>
               </li>
+
+              <li className=" ">
+                <Link href="/pages/cancellationandrefund" className=" ">
+                  Cancellation&refund
+                </Link>
+              </li>
+              
+
+               
               <li className=" ">
                 <Link href="/pages/productform" className="">
                   adminsignin

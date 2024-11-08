@@ -1,0 +1,52 @@
+/* public/cancelRefundStyle.css */
+
+.cancelRefundContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .cancelRefundHeading {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #0000bb;
+  }
+  
+  .cancelRefundSubheading {
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #0000bb;
+  }
+  
+  .cancelRefundText {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #0000bb;
+  }
+  
+  .cancelRefundList {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #0000bb;
+  }
+  
+  @media (max-width: 650px) {
+    .cancelRefundContainer {
+      padding: 15px;
+    }
+  
+    .cancelRefundHeading {
+      font-size: 2em;
+    }
+  
+    .cancelRefundSubheading {
+      font-size: 1.75em;
+    }
+  
+    .cancelRefundText {
+      font-size: 0.9em;
+    }
+  }
+  

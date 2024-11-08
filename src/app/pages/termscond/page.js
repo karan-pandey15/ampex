@@ -18,7 +18,7 @@ const TermsCondition = () => {
 
         <h2 className="termcondSubheading">Introduction</h2>
         <p className="termcondText">
-          Welcome to Maras. These Terms and Conditions ("Terms") govern your use of our website maras.com and the booking services ("Services") we provide. By accessing or using our Site and Services, you agree to be bound by these Terms.
+          Welcome to Maras. These Terms and Conditions (&quot;Terms&quot;) govern your use of our website maras.com and the booking services (&quot;Services&quot;) we provide. By accessing or using our Site and Services, you agree to be bound by these Terms.
         </p>
 
         <h2 className="termcondSubheading">Use of the Site</h2>
@@ -38,7 +38,7 @@ const TermsCondition = () => {
         </p>
         <ul className="termcondList">
           <li>Violating any applicable laws or regulations</li>
-          <li>Infringing on any third party’s rights, including intellectual property rights</li>
+          <li>Infringing on any third party&#39;s rights, including intellectual property rights</li>
           <li>Using the Site or Services for any fraudulent or unlawful purpose</li>
           <li>Interfering with or disrupting the Site or Services, servers, or networks</li>
           <li>Introducing any viruses, malware, or other harmful software</li>

@@ -31,7 +31,7 @@ const CancelRefund = () => {
           Refunds will be processed within 7-10 business days through the original payment method used during the booking.
         </p>
         <p className="cancelRefundText">
-          For payments processed through Razorpay, refunds may take additional time depending on your bank's processing times.
+          For payments processed through Razorpay, refunds may take additional time depending on your bank&apos;s processing times.
         </p>
 
         <h2 className="cancelRefundSubheading">How to Request a Refund</h2>

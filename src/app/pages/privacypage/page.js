@@ -57,7 +57,7 @@ const PrivacyPolicy = () => {
           <li>Referring URL</li>
         </ul>
 
-        {/* Other sections omitted for brevity */}
+        {/* Additional sections can be added here if needed */}
 
         <h2 className="privacySubheading">Contact Us</h2>
         <p className="privacyText">
